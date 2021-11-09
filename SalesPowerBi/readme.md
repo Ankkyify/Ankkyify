@@ -53,5 +53,26 @@ Show total revenue in year 2020 in Chennai
 ### Formula to create norm_amount column
 `= Table.AddColumn(#"Filtered Rows", "norm_amount", each if [currency] = "USD" or [currency] ="USD#(cr)" then [sales_amount]*75 else [sales_amount], type any)`
 
+## **Data is Loaded in PowerBI Desktop** 
+![powerbi](https://user-images.githubusercontent.com/93612190/140901392-9f83c483-fff1-45e1-be4a-d10ccd2a32eb.png)
+
+
+## **Data Model showing the relation**
+![data model powerbi](https://user-images.githubusercontent.com/93612190/140901639-591b01cf-6006-49ce-865c-30aca1446798.png)
+
+
+
+##  **ETL process in Power Query Editor**
+![powerQuery power bi](https://user-images.githubusercontent.com/93612190/140901671-f12ff64a-dc1f-4146-bce2-1261610afea0.png)
+
+
+
+## **Finalised Dashboard for Stakeholders**
+![Dashboard power bi](https://user-images.githubusercontent.com/93612190/140901735-e0b391e2-fb78-4b11-917c-0512284be9cd.png)
+
+
+
+
+
 
 
